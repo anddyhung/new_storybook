@@ -16,6 +16,7 @@ export default function InboxScreen() {
 	useEffect(() => {
 		dispatch(fetchTasks());
 	}, []);
+
 	if (error) {
 		return (
 			<div className='page lists-show'>

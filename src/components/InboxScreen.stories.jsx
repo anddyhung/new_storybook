@@ -41,13 +41,12 @@ export const Default = {
 		// Waits for the component to be updated based on the store
 		await waitFor(async () => {
 			// Simulates pinning the first task
-			await fireEvent.click(canvas.getByLabelText('Task 1'));
+			await fireEvent.click(canvas.getByLabelText('pinTask-1'));
 			// Simulates pinning the third task
-			await fireEvent.click(canvas.getByLabelText('Task 3'));
+			await fireEvent.click(canvas.getByLabelText('pinTask-3'));
 		});
 	},
 };
-
 export const Error = {
 	parameters: {
 		msw: {
