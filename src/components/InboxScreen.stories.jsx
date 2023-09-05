@@ -47,6 +47,7 @@ export const Default = {
 		});
 	},
 };
+
 export const Error = {
 	parameters: {
 		msw: {
